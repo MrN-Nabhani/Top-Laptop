@@ -4,28 +4,29 @@
     <div>
       <ul>
         <li>
-          <a target="_blank" href="https://github.com/MrN-Nabhani/Top-Laptop">View Source Code on GitHub</a>
+          <a target="_blank" href="https://github.com/MrN-Nabhani/Top-Laptop">
+            View Source Code on GitHub
+          </a>
         </li>
       </ul>
     </div>
-
   </nav>
 </template>
 
 <script>
 // import { set } from 'vue/types/umd';
 export default {
-	data() {
+  data() {
     return {
-			setFilteringOptions: false
+      setFilteringOptions: false,
     };
-	},
-	
-	methods: {
-		toggleFilters(){
-			this.$set(this.setFilteringOptions, !this.setFilteringOptions);
-		}
-	}
+  },
+
+  methods: {
+    toggleFilters() {
+      this.$set(this.setFilteringOptions, !this.setFilteringOptions);
+    },
+  },
 };
 </script>
 
@@ -39,7 +40,7 @@ nav {
   align-items: center;
 
   background-color: #727d80;
-	color: #fff;
+  color: #fff;
   z-index: 0;
 }
 
@@ -55,10 +56,6 @@ ul {
       text-decoration: none;
     }
   }
-}
-
-.toggle-filtering-options{
-
 }
 
 </style>
