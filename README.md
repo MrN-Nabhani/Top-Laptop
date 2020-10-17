@@ -1,24 +1,11 @@
 # top-laptop
 
-## Project setup
-```
-npm install
-```
+This is a dummy project created for experimenting with Vue.js 
+I've used Node.js & Puppeteer for web scrapping from https://gts.jo/computers/laptops
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## useful links:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+How to fix “Avoid mutating a prop directly” in Vue:
+https://medium.com/javascript-in-plain-english/avoid-mutating-a-prop-directly-7b127b9bca5b#:~:text=Avoid%20mutating%20a%20prop%20directly%20since%20the%20value%20will%20be,based%20on%20the%20prop's%20value.
